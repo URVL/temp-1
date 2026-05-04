@@ -6,3 +6,4 @@ Generated from the URVL/temp-1 Solopreneur git template.
 
 - Port: {{ servicePort }}
 - Health: `/health`
+- Template contract: drift-aware v2
