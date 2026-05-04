@@ -1,0 +1,19 @@
+{
+  "name": "temp-1",
+  "version": "1.0.0",
+  "description": "Solopreneur git scaffold fixture template",
+  "variables": [
+    {
+      "name": "projectName",
+      "type": "string",
+      "required": true,
+      "description": "Generated project display name"
+    },
+    {
+      "name": "servicePort",
+      "type": "string",
+      "required": true,
+      "description": "HTTP port for the generated service"
+    }
+  ]
+}
