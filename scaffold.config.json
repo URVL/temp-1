@@ -15,5 +15,29 @@
       "required": true,
       "description": "HTTP port for the generated service"
     }
-  ]
+  ],
+  "structure": {
+    "verify_content": false,
+    "verify_files_content": [
+      "README.md",
+      "config/service.yml",
+      "src/index.ts",
+      "docs/contract.md"
+    ],
+    "required": [
+      ".gitignore",
+      "README.md",
+      "config/",
+      "config/service.yml",
+      "src/",
+      "src/index.ts",
+      "docs/",
+      "docs/contract.md"
+    ],
+    "ignore": [
+      "node_modules/**",
+      "dist/**",
+      ".git/**"
+    ]
+  }
 }
